@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upper_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 25px;
+}
+.upper_nav .icons{
+    display: flex;
+    gap: 20px;
+}
+.upper_nav input{
+    border: none;
+    background-color: rgba(220, 220, 220, 0.228);
+    height: 35px;
+    width: 250px;
+    border-radius: 8px;
+}
+.upper_nav input::placeholder{
+    padding-left: 50px;
+}
+.lower_nav ul{
+    display: flex;
+    gap: 40px;
+    margin: 3px 30px;
+}
+.lower_nav ul li{
+    list-style: none;
+}
+.lower_nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.categories{
+    display: flex;
+    margin:  30px;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.774);
+    margin-top: 130px;
+}
+.product{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 220px;
+    padding: 30px 130px;
+}
+.product .img{
+    width: 50%;
+    margin-left: -100px;
+}
+.product .img .box{
+    height: 600px;
+    width: 700px;
+    background-color: rgba(215, 209, 190, 0.329);
+    border-radius: 20px;
+}
+.product .img .box img{
+    margin-top: 210px;
+}
+.product .img .img_box{
+    display: flex;
+    margin-top: 10px;
+}
+.product .img .img_box img{
+    width: 16%;
+    height: 50%;
+}
+.product .img .img_box div{
+    background-color: rgb(215,209,190, 0.329);
+    height: 90px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.product .details .img_1{
+    width: 150px;
+}
+.product .details h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.product .details .p{
+    color: rgba(0, 0, 0, 0.642);
+    margin-bottom: 50px;
+}
+.product .details h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.product .details .img_2{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.product .details .button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.product .details .button button{
+    height: 35px;
+    width: 65px;
+    border-color: rgba(128, 128, 128, 0.217);
+    background: transparent;
+    border-radius: 5px;
+}
+.product .details h6{
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: wheat;
+}
+.product .details .btn_1{
+    height: 50px;
+    width: 340px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.product .details .btn_2{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+.product .details .last{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left: 620px;
+    color: rgba(0, 0, 0, 0.445);
+    font-size: 20px;
+}
+section{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
