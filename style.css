@@ -171,4 +171,14 @@ section {
   .categories {
     gap: 2px;
   }
+  .product .img {
+    width: 100%;
+  }
+  .product .img .box{
+    height: auto;
+  }
+  .product .img .box img {
+    max-width: 100%;
+    margin-top: 0px;
+  }
 }
