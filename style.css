@@ -172,7 +172,7 @@ section {
     gap: 2px;
   }
   .product .img {
-    width: 100%;
+    width: auto;
   }
   .product .img .box{
     height: auto;
