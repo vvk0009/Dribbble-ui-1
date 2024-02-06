@@ -198,6 +198,7 @@ section {
   }
   .product .img {
     width: auto;
+    padding: 0px 0px 0px 120px;
   }
   .product .img .box{
     height: auto;
